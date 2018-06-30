@@ -1,0 +1,4 @@
+---
+applications:
+- name: operator-workshop
+  buildpack: staticfile_buildpack

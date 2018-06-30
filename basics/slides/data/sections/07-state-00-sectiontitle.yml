@@ -1,0 +1,9 @@
+---
+menuTitle: "Goal"
+id: state
+type: "statement"
+backgroundColor: "#243641"
+buildInColumns: "false"
+statements:
+  - Part 7.
+  - Dealing with State

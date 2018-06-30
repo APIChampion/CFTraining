@@ -1,0 +1,16 @@
+---
+
+baseurl: "/"
+languageCode: "en-us"
+title: "Cloud Foundry : From Zero to Hero"
+theme: "hugo-theme-pivotal-revealjs"
+
+params:
+
+  logo: img/cf.png
+
+  titleSlide:
+    subtitle: "Cloud Foundry For Beginners"
+    notes: |
+
+      A beginners guide to Cloud Foundry.

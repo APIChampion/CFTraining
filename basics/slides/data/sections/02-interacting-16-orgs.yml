@@ -1,0 +1,30 @@
+---
+type: "slide-bacis"
+title: "Orgs"
+subtitle: "Multitenancy in Cloud Foundry"
+menuTitle: "Orgs"
+
+content: |
+
+  **Organisations** segregate *tenants* in a Cloud Foundry installation.
+
+  ```sh
+  $ cf orgs
+  ```
+
+  ```sh
+  $ cf org pcfdev-org
+  Getting info for org pcfdev-org as admin...
+  OK
+
+  pcfdev-org:
+                domains:        local.pcfdev.io
+                quota:          default (102400M memory limit, unlimited instance memory limit, 1000 routes, -1 services, paid services allowed, unlimited app instance limit, 0 route ports)
+                spaces:         pcfdev-space
+                space quotas:
+  ```
+
+
+notes: |
+
+  Orgs contain 1 or more spaces.  Organizations are typically used to segregate tenants or projects in a cloud foundry installation.  However, there are no limits and users are free to implement any structure they see fit.

@@ -1,0 +1,22 @@
+---
+type: "two-column"
+menuTitle: "Service Brokers"
+
+columnLeftContent: |
+
+  <span class="txt-c">
+
+  *What is a Service Broker?*
+
+  </span>
+
+columnRightContent: |
+
+  * **Brokers access to resources** of a specific type
+
+  * Implements a **rest API** advertising a catalog of **service offerings** and plans
+
+
+notes: |
+
+  Service Broker API is registered and used by the Cloud Controller

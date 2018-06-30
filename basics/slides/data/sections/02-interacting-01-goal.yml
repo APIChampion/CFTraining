@@ -1,0 +1,8 @@
+---
+menuTitle: "Goal"
+type: "statement"
+backgroundColor: "#243641"
+buildInStatements: false
+statements:
+  - I want to have a *command line* utility installed
+  - So that I can *deploy apps* into my CF account

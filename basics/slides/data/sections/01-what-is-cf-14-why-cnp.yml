@@ -1,0 +1,32 @@
+---
+type: "two-column"
+title: "Why a Cloud Native Platform?"
+subtitle: "Explaining Cloud Native"
+menuTitle: "Why a Cloud Native Platform?"
+buildInColumns: "false"
+
+columnLeftContent: |
+
+  <span class="txt-c">
+
+  <img src="img/logging.svg" />
+
+  </span>
+
+columnRightContent: |
+
+
+  **Why a Cloud Native Platform?**
+
+  * Don't waste time on **plumbing** infrastructure
+  * Deliver **business value** more often
+  * **Learn** about your customers more quickly
+
+notes: |
+
+  Find what your customers actually want by showing them.
+  Iterate constantly by learning what is actually important.
+
+  Do not wait for IT to provision servers.
+
+  Let developers choose the language and services that they believe are best for the job.

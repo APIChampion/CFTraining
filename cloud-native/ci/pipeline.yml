@@ -1,0 +1,29 @@
+---
+jobs:
+- name: publish
+  public: true
+  plan:
+  - get: summit-training-classes
+    trigger: true
+  - task: generate
+    file: summit-training-classes/cloud-native/ci/build.yml
+  - put: cf
+    params:
+      manifest: summit-training-classes/cloud-native/ci/manifest.yml
+      path: built/
+
+resources:
+- name: summit-training-classes
+  type: git
+  source:
+    uri: https://github.com/cloudfoundry/summit-training-classes.git
+    branch: master
+- name: cf
+  type: cf
+  source:
+    api: {{cf-api}}
+    username: {{cf-username}}
+    password: {{cf-password}}
+    organization: {{cf-org}}
+    space: {{cf-space}}
+    skip_cert_check: false

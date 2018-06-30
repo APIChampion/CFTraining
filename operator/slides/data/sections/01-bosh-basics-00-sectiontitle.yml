@@ -1,0 +1,9 @@
+---
+menuTitle: "BOSH Basics"
+id: bosh-basics
+type: "statement"
+backgroundColor: "#243641"
+buildInStatements: "true"
+statements:
+  - Part 1.
+  - BOSH basics

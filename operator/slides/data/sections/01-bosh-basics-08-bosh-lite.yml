@@ -1,0 +1,15 @@
+subtitle: "BOSH Basics"
+title: "Your environment..."
+menuTitle: "BOSH Basics: BOSH-Lite v2"
+type: slide-basic
+content: |
+
+  * Single VM "cloud" with BOSH director installed
+  * Custom "container" CPI
+  * Simulate VMs using containers
+
+  > Simulate a cloud in a single VM!
+
+notes:
+
+  BOSH-Lite v2 runs in a single VM.  The CPI is called "Warden" and provides containers when BOSH requests VMs.

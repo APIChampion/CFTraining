@@ -1,0 +1,9 @@
+---
+menuTitle: "BOSH HA: Delivered"
+type: "statement"
+backgroundColor: "#243641"
+buildInStatements: false
+statements:
+  - As a *BOSH operator*
+  - I *understand* BOSH HA
+  - So I can be *confident* my deployment is resilient

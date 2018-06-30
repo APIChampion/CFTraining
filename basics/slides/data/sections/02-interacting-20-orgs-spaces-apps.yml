@@ -1,0 +1,17 @@
+---
+type: "slide-basic"
+title: "Orgs, Spaces and Apps"
+subtitle: "Bringing it altogether"
+menuTitle: "Orgs, Spaces and Apps"
+
+content: |
+
+  What is the relationship between **orgs**, **spaces** & **apps**?
+
+  ![orgs and spaces](img/orgs-and-spaces.svg)
+
+  &nbsp;
+
+notes: |
+
+    Orgs contain 1 or more spaces. Apps are deployed to spaces. Apps within a space cannot have the same name.

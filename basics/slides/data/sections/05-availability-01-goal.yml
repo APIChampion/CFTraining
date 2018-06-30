@@ -1,0 +1,8 @@
+---
+menuTitle: "Goal"
+type: "statement"
+backgroundColor: "#243641"
+buildInStatements: false
+statements:
+  - I want my app to be *resilient*
+  - So that random failures *won't* take it offline

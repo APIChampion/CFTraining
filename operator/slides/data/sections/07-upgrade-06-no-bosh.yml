@@ -1,0 +1,34 @@
+---
+subtitle: "Upgrading with BOSH"
+title: "Life without BOSH"
+menuTitle: "Upgrading with BOSH: Life without BOSH"
+type: "two-column"
+buildInColumns: "true"
+
+columnLeftTitle: Environments without BOSH...
+
+columnLeftContent: |
+
+  <span class="txt-c">
+
+  **Why would you?**
+
+  <i class="fa fa-question" style="font-size: 120px"></i>
+
+  </span>
+
+columnRightTitle: "What is in your organization?"
+
+columnRightContent: |
+
+  * How many VMs?
+  * How many applications?
+  * What happens when a CVE occurs in one component?
+
+  * **How could BOSH help you?**
+
+notes: |
+
+  What happens when a CVE occurs in the O/S? How about in the application runtime? How hard are these to address without BOSH?
+
+  With BOSH these events are easy to address. New O/S updates can even be picked up and deployed by CI with zero downtime automatically.

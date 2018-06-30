@@ -1,0 +1,12 @@
+subtitle: "BOSH HA"
+title: "Recapping..."
+menuTitle: "BOSH HA: Recapping..."
+type: slide-basic
+
+content: |
+
+    ![BOSH Recap](img/bosh-recap.svg "BOSH Recap")
+
+notes: |
+
+  BOSH clusters are created from 3 major components (bosh triangle).  The cluster is one or more VMs.  Now we are going to take a closer look at the clusters of VMs BOSH creates.

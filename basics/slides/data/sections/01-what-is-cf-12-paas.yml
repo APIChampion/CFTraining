@@ -1,0 +1,30 @@
+---
+type: "two-column"
+title: "What is PaaS?"
+subtitle: "PaaS Overview"
+menuTitle: "What is PaaS?"
+buildInColumns: "false"
+
+columnLeftContent: |
+
+  <span class="txt-c">
+
+  <img src="img/logging.svg" />
+
+  </span>
+
+columnRightContent: |
+
+  **Platform as a Service**
+
+  * Cloud Computing taxonomy: **IaaS**, **PaaS**, and **SaaS**
+  * PaaS aims to improve developer **productivity**
+  * Reduces undifferentiated 'plumbing' aka **'yak shaving'**
+  * Heroku blazed a trail for **PaaS** and **12 Factor** apps
+  * Applications are the **Cloud Native** unit of currency
+
+notes: |
+
+  IaaS - servers, SaaS - users.
+
+  Heroku created patterns based on their experiences called "12 Factors" that have been heavily influencial. Also drove "buildpack" model

@@ -1,0 +1,76 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Cloud Native with Microservices"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+# canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-67001027-2"
+
+[params]
+	# General information
+	description = "CF Foundation Training - Cloud Native with Microservices"
+	copyright = "Copyright Cloud Foundry Foundation.  All Rights Reserved."
+
+	version = "1.0.1"
+  headerLogo = "/img/cf-white.png"
+  logo = "img/cf-rabbit.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "blue-grey"
+    	accent  = "blue"
+
+    [params.font]
+    	text = "Roboto"
+    	code = "Roboto Mono"
+
+
+[social]
+	github  = "cloudfoundry/summit-training-classes"
+
+[[menu.main]]
+	name   = "Overview"
+	url    = ""
+	weight = 0
+
+[[menu.main]]
+	name   = "Prerequisites"
+	url    = "prereqs/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Agenda"
+	url    = "agenda/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Resources"
+	url    = "resources/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Notes"
+	url    = "notes/"
+	weight = 35
+
+[[menu.main]]
+	name   = "License"
+	url    = "http://www.apache.org/licenses/LICENSE-2.0"
+	weight = 40
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

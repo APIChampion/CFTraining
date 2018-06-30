@@ -1,0 +1,20 @@
+---
+subtitle: "Scaling"
+title: "What are we going to do?"
+menuTitle: "Scaling: Agenda"
+type: "two-column"
+buildInColumns: "true"
+
+columnLeftContent: |
+
+  ![CF Logo](img/cf-logo-vertical.png "Cloud Foundry")
+
+columnRightContent: |
+
+    * Vertical Scaling
+    * Horizontal Scaling
+    * Platform Scaling
+
+notes: |
+
+  In this section, we'll talk about scaling resources. The principles apply whether you're scaling the containers in which your Cloud Foundry apps run, or the VMs on which BOSH deploys the Cloud Foundry platform.

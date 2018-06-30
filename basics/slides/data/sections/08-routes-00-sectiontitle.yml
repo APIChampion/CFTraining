@@ -1,0 +1,9 @@
+---
+menuTitle: "Goal"
+type: "statement"
+id: routes
+backgroundColor: "#243641"
+buildInColumns: "false"
+statements:
+  - Part 8.
+  - Domains and Routes

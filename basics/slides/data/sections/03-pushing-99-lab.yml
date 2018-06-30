@@ -1,0 +1,8 @@
+---
+menuTitle: "Lab"
+type: "statement"
+backgroundColor: "#243641"
+buildInStatements: "true"
+statements:
+  - Lab 3.
+  - I can access my app on a public URL

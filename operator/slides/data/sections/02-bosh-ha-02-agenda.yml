@@ -1,0 +1,16 @@
+---
+subtitle: "BOSH HA"
+title: "What are we going to do?"
+menuTitle: "BOSH HA: Agenda"
+type: "two-column"
+buildInColumns: "true"
+
+columnLeftContent: |
+
+  ![CF Logo](img/CFF-BOSH-Full-Color.png "BOSH")
+
+columnRightContent: |
+
+  * What is a BOSH Cluster?
+  * VM Availability
+  * Process Availability

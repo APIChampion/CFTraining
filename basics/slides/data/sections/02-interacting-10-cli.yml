@@ -1,0 +1,21 @@
+---
+type: "slide-basic"
+title: "cf CLI"
+subtitle: "Command Line Interface"
+menuTitle: "cf CLI"
+
+content: |
+
+  How do I **interact** with CF?
+
+  * **Command Line Interface** (CLI): from terminal / command prompt
+
+  * **IDE plugins**
+
+  * Vendor specific **consoles**
+
+  * CI tool integration (e.g Concourse.ci)
+
+notes: |
+
+  The CF CLI utility communicates with the Cloud Controller, a CF component, that exposes a RESTful API

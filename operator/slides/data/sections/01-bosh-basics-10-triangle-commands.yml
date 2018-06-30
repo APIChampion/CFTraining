@@ -1,0 +1,26 @@
+subtitle: "BOSH Basics"
+title: "Basic Commands"
+menuTitle: "BOSH Basics: Basic Commands"
+type: slide-basic
+
+content: |
+
+  ```sh
+    bosh stemcells
+  ```
+
+  ```sh
+    bosh releases
+  ```
+
+  ```sh
+    bosh deployments
+  ```
+
+  ```sh
+    bosh manifest
+  ```
+
+notes: |
+
+  Try it!  Don't forget to use the BOSH help commands.  Generating a manifest is often the difficult "day one" problem.

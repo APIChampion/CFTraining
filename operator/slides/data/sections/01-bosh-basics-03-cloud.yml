@@ -1,0 +1,23 @@
+---
+subtitle: "BOSH Basics"
+title: "What is a Cloud?"
+menuTitle: "BOSH Basics: What is a Cloud?"
+type: "two-column"
+
+columnLeftContent: |
+  ### Technical
+
+  * **Virtual** infrastructure
+    * VMs
+    * Networks
+    * Disks
+  * **Driven** by an **API**
+
+columnRightContent: |
+  ### Cultural
+
+  * **Automated**, **repeatable** operations
+  * Agile, **unimpeded** development
+
+notes: |
+  Cloud is not just about technology, it is about culture too.
